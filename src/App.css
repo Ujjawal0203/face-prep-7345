@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+#navbar{
+  justify-content: space-around;
+  box-shadow: 2px 2px 5px 5px rgb(234, 236, 236);
+  margin-bottom: 20px;
+  padding: 20px;
+
+}
+
+#cont{
+  width: 90%;
+  margin: auto;
+  font-weight: bold;
+  margin-right: 20px;
+}
+#conts{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+   margin-bottom: 10px;
+}
